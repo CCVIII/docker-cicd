@@ -1,6 +1,6 @@
 FROM node:4.6
-WORKDIR /app
-ADD . /app
+WORKDIR /basics/app
+ADD . /basics/app
 RUN echo " this is a test "
 RUN npm install
 EXPOSE 3000
